@@ -1,0 +1,195 @@
+ <!DOCTYPE html>
+<?php
+
+	require 'config.php';
+	
+?>
+
+<html>
+	<head>
+		<!-- add a title (a)-->
+		<title>Inventory Home</title>
+		
+		<!--add styleSheet-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<link rel="stylesheet" href="Styles/Docmain.css">
+		<link rel="stylesheet" href="Styles/Inventory.css">
+		<!--<script src="js1/script1.js"> </script>-->
+		<meta charset = "UTF-8">
+		<meta name ="viewport" content = "width = device-width , intial-scale = 1.0">
+	
+	 
+	<div class="topnav">
+		<div class="logo">
+		<p> <strong> e Service </strong> </p>
+		</div>
+		
+	    <img class = "image" src="image/logo.jpg" width="121px" height="100px">
+		
+		<div class = "navbar">
+			<a href="#">Home</a>
+			<a href="#" >About Us</a>
+			<a href="#" >Contact us</a>
+			<a href="#">Terms & Conditions</a>
+			<a href="#" class="login">Login</a>
+		</div>
+		<br>
+	</div>
+	
+	<div class="wrapper">
+	
+	<br>
+		<div class="maindiv">
+				<div class="leftdiv">
+				<center><br><br><br><br><br>
+					<div class="box-1" onclick="window.location='Request.html';">
+					  <div class="btn btn-one">
+						<span>STOCK DETAILS</span>
+					
+					  </div>
+					</div>
+					<br><br>
+					<!--2 -->
+					<div class="box-1" onclick="window.location='Request.html';">
+					  <div class="btn btn-one">
+						<span>ADD NEW ITEM</span>
+						
+					  </div>
+					</div>
+					<br><br>
+					<!-- #3 -->
+					<div class="box-1" onclick="window.location='Request.html';">
+					  <div class="btn btn-one">
+						<span>ADD NEW SUPPLIER</span>
+						
+					  </div>
+					</div>
+					<br><br>
+					<!-- #4 -->
+					<div class="box-1" onclick="window.location='Request.html';">
+					  <div class="btn btn-one">
+						<span>VIEW REPORT</span>
+						
+					  </div>
+					</div>
+			
+				</center>
+				<p style="font-size:20px;color:#BCC6CC">
+				</p>
+				
+			</div>
+			<div class="rightdiv">
+			<center>
+				<h2>Request Item List</h2>
+				<div class="table-wrapper">
+					<table class="fl-table">
+						<thead>
+						<tr>
+
+						
+							<th>ReqID</th>
+							<th>Section</th>
+							<th>Item name</th>
+							<th>Quantity</th>
+							<th>Required Date</th>
+							<th>Status</th>
+							<th>Check</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>001</td>
+							<td>Pharmacy</td>
+							<td>Amoxicillin</td>
+							<td>60</td>
+							<td>Pending</td>
+							<td><button type="button" class="sbutton" onclick="window.location='Request.html';">Check</button></td>
+						</tr>
+						<tr>
+							<td>002</td>
+							<td>Lab</td>
+							<td>Masks</td>
+							<td>50</td>
+							<td>Pending</td>
+							<td><button type="button" class="sbutton" onclick="window.location='Request.html';">Check</button></td>
+						</tr>
+						<tr>
+							<td>Content 3</td>
+							<td>Content 3</td>
+							<td>Content 3</td>
+							<td>Content 3</td>
+							<td>Content 3</td>
+							<td><button type="button" class="sbutton" onclick="window.location='Request.html';">Check</button></td>
+						</tr>
+						<tbody>
+					</table>
+				</div>
+			</center>
+			
+			</div>
+
+		</div>
+		<div class="mrightdiv">
+			<center>
+				<h2>Search items</h2>
+				<div class="table-wrapper">
+					<table class="fl-table">
+						<thead>
+						<tr>
+
+						
+							<th>ReqID</th>
+							<th>Section</th>
+							<th>Item name</th>
+							<th>Quantity</th>
+							<th>Required Date</th>
+							<th>Status</th>
+							<th>Check</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td>001</td>
+							<td>Pharmacy</td>
+							<td>Amoxicillin</td>
+							<td>60</td>
+							<td>Pending</td>
+							<td><button type="button" class="sbutton" onclick="window.location='Request.html';">Check</button></td>
+						</tr>
+						
+						<tbody>
+					</table>
+				</div>
+			</center>
+		</div>
+	
+	</div>
+	
+	
+	<!---footer--!>
+	<!----------------------footer-------------------------------------------->
+		<footer>
+			 <img class = "image1" src="image/qr2.PNG" width="121px" height="100px">
+			
+		    <p>+94 712 571 22</p>
+			<p>eservice@gmail.com</p>
+			<p>eService PLC,nO:108,W A D Ramanayaka Mawatha,Kandy,Sri Lanka</p>
+		
+			<br><hr class = "hr1">
+			<p class="para4"> @2022 All Rights Reserved </p><br>
+			
+			<div class="socialmedia">
+				<ul>
+					<li><a href="#" class="fa fa-facebook"></a></li>
+					<li><a href="#" class="fa fa-twitter"></a></li>
+					<li><a href="#" class="fa fa-instagram"></a></li>
+				</ul>
+			</div>
+			
+			<br>
+		</footer>
+   </body>	
+</head>
+</html>

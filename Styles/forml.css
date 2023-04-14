@@ -1,0 +1,45 @@
+.container{
+	margin:auto;
+	width:500px;
+	max-width:90%;
+}
+			
+.container form{
+	width: 120%;
+	height:100%;
+	padding:20px;
+	background:white;
+	border-radius:4px;
+	box-shadow: 0 8px 16px rgba(0,0,0,3);
+}
+
+.container form .from-control{
+	width:60%;
+	height:40px;
+	background:white;
+	border-radius:4px;
+	border:1px solid silver;
+	margin:10px 0 18px 0;
+	padding:0 10px;			
+}
+
+.container form .btnl{
+	margin-left:50%;
+	transform: translateX(-50%);
+	width:120px;
+	height:34px;
+	border:none;
+	outline : none;
+	background: #27a327;
+	cursor: pointer;
+	font-size:16px;
+	text-tranform:uppercase;
+	color: white;
+	border-radius:4px;
+	trnsition: .3s
+
+}
+
+.container form .btnl:hover{
+	opacity: .7;
+}
